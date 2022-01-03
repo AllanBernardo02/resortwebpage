@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century;
+}
+
+header{
+  background-image: url(beach.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul{
+  float: right;
+  list-style-type: none;
+}
+
+ul li{
+  display: inline;
+  margin: 0px 5px;
+  height: 25px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  width: 100px;
+  height: 50px;
+  padding: 5px 20px;
+ border: 1px solid white;
+}
+
+ul li a:hover{
+  padding-left: 50px;
+  background-color: #fff;
+  color: #000;
+}
+
+.logo img{
+  width: 150px;
+  height:auto;
+  display: flex;
+  justify-content: stretch;
+  
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+.sub-menu{
+  display: none;
+}
+
+ul li:hover .sub-menu{
+  display: block;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+
